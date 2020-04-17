@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-source-gitlab",
+  "version": "0.0.1",
+  "description": "Source provider for Gitlab groups and projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "echo \"Please add unit tests\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmobile/gatsby-source-gitlab"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby source",
+    "gitlab",
+    "gitlab api"
+  ],
+  "author": "T-Mobile",
+  "license": "Apache 2",
+  "dependencies": {
+    "gatsby-source-filesystem": "^2.2.2",
+    "gitlab": "^14.2.2",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/shelljs": "^0.8.7",
+    "typescript": "^3.8.3"
+  }
+}
