@@ -20,7 +20,7 @@
   "author": "T-Mobile",
   "license": "Apache 2",
   "dependencies": {
-    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-source-filesystem": "^5.4.0",
     "gitlab": "^14.2.2",
     "shelljs": "^0.8.5"
   },
